@@ -21,14 +21,14 @@ cd..
 - https://hub.docker.com/
 
 ## Helpfull commands:  
-docker images  
-docker rmi <IMAGE ID> 
+**docker** images  
+**docker** rmi <IMAGE ID> 
 
-kubectl get pods  
-kubectl delete pod <pod-name>  
-kubectl scale deployment <your_deployment_name> --replicas=0  
-kubectl get svc  
-kubectl delete svc <weather-api>  
+**kubectl** get pods  
+**kubectl** delete pod <pod-name>  
+**kubectl** scale deployment <your_deployment_name> --replicas=0  
+**kubectl** get svc  
+**kubectl** delete svc <weather-api>  
 
 
 ## Sources:
