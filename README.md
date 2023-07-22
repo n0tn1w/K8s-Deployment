@@ -3,18 +3,18 @@
 ## Config:
 ### We need to create an image and put it in docker hub  
 
-docker login  
-docker build -t n0tn1w/test:1.0.0 .  
-docker push n0tn1w/test:1.0.0  
+**docker** login  
+**docker** build -t _n0tn1w/test:1.0.0_ .  
+**docker** push _n0tn1w/test:1.0.0_  
 
 ### We need to tell kubectl which images to use  
 _deploy.yml_  
 cd..  
-kuebctl apply -f deploy.yml  
+**kuebctl** apply -f _deploy.yml_  
 
 _service.yml_  
 cd..  
-kuebctl apply -f service.yml  
+**kuebctl** apply -f _service.yml_  
 
 ## Portals:
 - https://portal.azure.com/#home
