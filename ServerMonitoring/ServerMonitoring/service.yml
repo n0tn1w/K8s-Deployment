@@ -1,0 +1,13 @@
+﻿apiVersion: v1
+kind: Service
+metadata:
+  name: server-monitoring-service
+  labels:
+    app: app
+spec:
+  ports:
+    - port: 80
+      targetPort: 80
+  selector:
+    app: app
+  type: LoadBalancer
